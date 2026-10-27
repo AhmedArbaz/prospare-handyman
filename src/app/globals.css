@@ -65,11 +65,11 @@ body {
   position: absolute;
   inset: 0;
   background: var(--color-brand-yellow);
-  clip-path: circle(0 at 2.25rem 2.25rem);
+  clip-path: circle(0 at 2.25rem 10rem);
   transition: clip-path 0.5s ease;
 }
 .service-card:hover::before,
-.service-card:focus-within::before { clip-path: circle(150% at 2.25rem 2.25rem); }
+.service-card:focus-within::before { clip-path: circle(150% at 2.25rem 10rem); }
 .service-card > * { position: relative; }
 
 .tile-wipe {

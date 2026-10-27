@@ -38,7 +38,7 @@ export default async function RecentWork() {
                       <Icon aria-hidden="true" strokeWidth={1.5} className={`relative transition-colors group-hover:text-brand-black ${i === 0 ? "h-24 w-24" : "h-14 w-14"}`} />
                     </>
                   )}
-                  <figcaption className="relative self-start bg-brand-black px-3 py-2 text-white">
+                  <figcaption className="relative mt-auto self-start bg-brand-black px-3 py-2 text-white">
                     <span className="block font-display text-xl font-bold leading-tight">{t(`items.${p.key}.title`)}</span>
                     <span className="block text-sm text-brand-yellow">{t(`items.${p.key}.tag`)}</span>
                   </figcaption>

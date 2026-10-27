@@ -9,10 +9,10 @@ export type Project = {
 };
 
 export const projects: Project[] = [
-  { key: "tv", tone: "orange" },
-  { key: "deck", tone: "black" },
-  { key: "painting", tone: "yellow" },
-  { key: "fireplace", tone: "paper" },
-  { key: "patching", tone: "orange" },
-  { key: "holiday", tone: "black" },
+  { key: "tv", tone: "orange", image: "/images/work/tv.svg" },
+  { key: "deck", tone: "black", image: "/images/work/deck.svg" },
+  { key: "painting", tone: "yellow", image: "/images/work/painting.svg" },
+  { key: "fireplace", tone: "paper", image: "/images/work/fireplace.svg" },
+  { key: "patching", tone: "orange", image: "/images/work/patching.svg" },
+  { key: "holiday", tone: "black", image: "/images/work/holiday.svg" },
 ];

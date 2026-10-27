@@ -25,3 +25,6 @@ Recent-work titles and the hero work-order card are sample content. Replace them
 
 ## Hero photo
 Drop a photo at `public/images/hero.jpg` (landscape, about 1920x1080). It replaces the animated tools illustration automatically, with a slow zoom and a solid dark overlay. Use a photo you own or one with a free license (Unsplash, Pexels).
+
+## Images
+`public/images/work/*.svg` and `public/images/services/*.svg` are original flat illustrations. To use real photos, add a .jpg and change the path in `src/lib/projects.ts` (work) or `src/components/Services.tsx` (services).

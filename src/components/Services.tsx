@@ -30,10 +30,14 @@ export default async function Services() {
             <li key={key}>
               <Reveal delay={i * 70} outerClassName="h-full">
                 <div className="service-card group h-full border-t-4 border-brand-black bg-white p-5">
-                  <span className="flex h-12 w-12 items-center justify-center bg-brand-yellow transition-colors group-hover:bg-brand-black group-hover:text-brand-yellow">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <div className="-mx-5 -mt-5 h-40 overflow-hidden bg-paper">
+                    <img src={`/images/services/${key}.svg`} alt="" className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" />
+                  </div>
+                  <span className="relative -mt-6 flex h-12 w-12 ring-4 ring-white items-center justify-center bg-brand-yellow transition-colors group-hover:bg-brand-black group-hover:text-brand-yellow">
                     <Icon aria-hidden="true" size={26} />
                   </span>
-                  <h3 className="mt-4 font-display text-2xl font-bold leading-tight">{t(`items.${key}.title`)}</h3>
+                  <h3 className="mt-3 font-display text-2xl font-bold leading-tight">{t(`items.${key}.title`)}</h3>
                   <p className="mt-2 text-black/70 group-hover:text-brand-black">{t(`items.${key}.desc`)}</p>
                   <Link
                     href={{ pathname: "/book", query: { service: key } }}
