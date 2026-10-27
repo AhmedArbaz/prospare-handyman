@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "title": "Prospare Handyman Work | Home repairs and upgrades",
+    "description": "Handyman services: TV mounting, painting, wall patching, plumbing repairs, electrical connections, deck replacement and holiday decorations. Book online."
+  },
+  "nav": { "work": "Our work", "services": "Services", "how": "How it works", "contact": "Contact", "book": "Book a job", "menu": "Menu" },
+  "hero": {
+    "title": "Home repairs and upgrades, done right.",
+    "subtitle": "TV mounting, painting, repairs and more. Tell us the job, send photos, and pick a day.",
+    "ctaBook": "Book a job",
+    "ctaWork": "See our work",
+    "ticket": { "title": "Work order", "status": "New request", "job": "Job", "jobValue": "Mount TV above fireplace", "place": "Room", "placeValue": "Living room", "photos": "Photos", "photosValue": "3 attached", "day": "Day", "dayValue": "Saturday morning" }
+  },
+  "work": {
+    "title": "Recent work",
+    "intro": "A look at jobs we have finished.",
+    "items": {
+      "tv": { "title": "TV wall mount", "tag": "TV mounting" },
+      "deck": { "title": "Deck rebuild", "tag": "Deck replacement" },
+      "painting": { "title": "Living room repaint", "tag": "Interior painting" },
+      "fireplace": { "title": "Mantel styling", "tag": "Fireplace decoration" },
+      "patching": { "title": "Hallway wall repair", "tag": "Wall patching" },
+      "holiday": { "title": "Holiday lights", "tag": "Holiday decorations" }
+    }
+  },
+  "services": {
+    "title": "What we fix, hang, and build",
+    "intro": "Pick a service and we take care of the rest.",
+    "book": "Book this service",
+    "items": {
+      "holiday": { "title": "Holiday decorations", "desc": "Lights, wreaths and seasonal displays, installed and taken down." },
+      "electrical": { "title": "Basic electrical connections", "desc": "Light fixtures, switches, outlets and fans connected." },
+      "tv": { "title": "TV mounting", "desc": "Wall mounts fitted level, with cables tidied." },
+      "fireplace": { "title": "Fireplace decoration", "desc": "Mantels and surrounds styled for the season." },
+      "plumbing": { "title": "Basic plumbing repairs", "desc": "Leaking faucets, clogged drains and loose fixtures." },
+      "patching": { "title": "Wall patching", "desc": "Holes and cracks filled, sanded and ready to paint." },
+      "painting": { "title": "Interior painting", "desc": "Walls, ceilings and trim with clean edges." },
+      "deck": { "title": "Deck replacement", "desc": "Worn boards and frames replaced with new decking." }
+    }
+  },
+  "how": {
+    "title": "How booking works",
+    "steps": {
+      "one": { "title": "Tell us the job", "desc": "Choose a service and describe what you need." },
+      "two": { "title": "Add photos and a day", "desc": "Photos help us quote accurately. Pick the day that suits you." },
+      "three": { "title": "We confirm and arrive", "desc": "We confirm the time, then get the work done." }
+    }
+  },
+  "cta": { "title": "Have a job in mind?", "subtitle": "Book online or call us.", "book": "Book a job", "call": "Call us", "email": "Email us" },
+  "footer": { "tagline": "Handyman work for homes.", "explore": "Explore", "contact": "Contact", "rights": "All rights reserved." },
+  "book": { "title": "Online booking", "intro": "The booking form is coming soon. For now, call or email us with your job and photos.", "back": "Back to home" }
+}

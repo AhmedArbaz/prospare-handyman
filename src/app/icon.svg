@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Prospare Handyman Work logo">
+  <rect width="200" height="200" rx="36" fill="#0A0A0A"/>
+  <path d="M38 102 L100 46 L162 102" fill="none" stroke="#F97316" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="62" y="106" width="76" height="62" rx="6" fill="#F97316"/>
+  <rect x="90" y="128" width="20" height="40" rx="3" fill="#FACC15"/>
+</svg>
