@@ -3,24 +3,60 @@
     "title": "Prospare Handyman Work | Reparaciones y mejoras para el hogar",
     "description": "Servicios de mantenimiento del hogar: instalación de TV, pintura, reparación de paredes, plomería básica, conexiones eléctricas básicas, reemplazo de terrazas y decoración festiva. Reserva en línea."
   },
-  "nav": { "work": "Nuestro trabajo", "services": "Servicios", "how": "Cómo funciona", "contact": "Contacto", "book": "Reservar", "menu": "Menú" },
+  "nav": {
+    "work": "Nuestro trabajo",
+    "services": "Servicios",
+    "how": "Cómo funciona",
+    "contact": "Contacto",
+    "book": "Reservar",
+    "menu": "Menú"
+  },
   "hero": {
     "title": "Reparaciones y mejoras para el hogar, bien hechas.",
     "subtitle": "Instalación de TV, pintura, reparaciones y más. Cuéntanos el trabajo, envía fotos y elige un día.",
     "ctaBook": "Reservar un trabajo",
     "ctaWork": "Ver nuestro trabajo",
-    "ticket": { "title": "Orden de trabajo", "status": "Nueva solicitud", "job": "Trabajo", "jobValue": "Instalar TV sobre la chimenea", "place": "Espacio", "placeValue": "Sala de estar", "photos": "Fotos", "photosValue": "3 adjuntas", "day": "Día", "dayValue": "Sábado por la mañana" }
+    "ticket": {
+      "title": "Orden de trabajo",
+      "status": "Nueva solicitud",
+      "job": "Trabajo",
+      "jobValue": "Instalar TV sobre la chimenea",
+      "place": "Espacio",
+      "placeValue": "Sala de estar",
+      "photos": "Fotos",
+      "photosValue": "3 adjuntas",
+      "day": "Día",
+      "dayValue": "Sábado por la mañana"
+    }
   },
   "work": {
     "title": "Trabajos recientes",
     "intro": "Un vistazo a los trabajos que hemos terminado.",
     "items": {
-      "tv": { "title": "Soporte de TV en pared", "tag": "Instalación de TV" },
-      "deck": { "title": "Terraza reconstruida", "tag": "Reemplazo de terraza" },
-      "painting": { "title": "Sala repintada", "tag": "Pintura interior" },
-      "fireplace": { "title": "Repisa decorada", "tag": "Decoración de chimenea" },
-      "patching": { "title": "Pared del pasillo reparada", "tag": "Reparación de paredes" },
-      "holiday": { "title": "Luces festivas", "tag": "Decoración festiva" }
+      "tv": {
+        "title": "Soporte de TV en pared",
+        "tag": "Instalación de TV"
+      },
+      "deck": {
+        "title": "Terraza reconstruida",
+        "tag": "Reemplazo de terraza"
+      },
+      "painting": {
+        "title": "Sala repintada",
+        "tag": "Pintura interior"
+      },
+      "fireplace": {
+        "title": "Repisa decorada",
+        "tag": "Decoración de chimenea"
+      },
+      "patching": {
+        "title": "Pared del pasillo reparada",
+        "tag": "Reparación de paredes"
+      },
+      "holiday": {
+        "title": "Luces festivas",
+        "tag": "Decoración festiva"
+      }
     }
   },
   "services": {
@@ -28,25 +64,127 @@
     "intro": "Elige un servicio y nosotros nos encargamos.",
     "book": "Reservar este servicio",
     "items": {
-      "holiday": { "title": "Decoración festiva", "desc": "Luces, coronas y adornos de temporada, instalados y retirados." },
-      "electrical": { "title": "Conexiones eléctricas básicas", "desc": "Lámparas, interruptores, enchufes y ventiladores conectados." },
-      "tv": { "title": "Instalación de TV", "desc": "Soportes de pared nivelados y cables ordenados." },
-      "fireplace": { "title": "Decoración de chimenea", "desc": "Repisas y marcos decorados para cada temporada." },
-      "plumbing": { "title": "Reparaciones básicas de plomería", "desc": "Grifos con fugas, desagües tapados y accesorios flojos." },
-      "patching": { "title": "Reparación de paredes", "desc": "Agujeros y grietas rellenados, lijados y listos para pintar." },
-      "painting": { "title": "Pintura interior", "desc": "Paredes, techos y molduras con acabados limpios." },
-      "deck": { "title": "Reemplazo de terraza", "desc": "Tablas y estructuras desgastadas reemplazadas por una terraza nueva." }
+      "holiday": {
+        "title": "Decoración festiva",
+        "desc": "Luces, coronas y adornos de temporada, instalados y retirados."
+      },
+      "electrical": {
+        "title": "Conexiones eléctricas básicas",
+        "desc": "Lámparas, interruptores, enchufes y ventiladores conectados."
+      },
+      "tv": {
+        "title": "Instalación de TV",
+        "desc": "Soportes de pared nivelados y cables ordenados."
+      },
+      "fireplace": {
+        "title": "Decoración de chimenea",
+        "desc": "Repisas y marcos decorados para cada temporada."
+      },
+      "plumbing": {
+        "title": "Reparaciones básicas de plomería",
+        "desc": "Grifos con fugas, desagües tapados y accesorios flojos."
+      },
+      "patching": {
+        "title": "Reparación de paredes",
+        "desc": "Agujeros y grietas rellenados, lijados y listos para pintar."
+      },
+      "painting": {
+        "title": "Pintura interior",
+        "desc": "Paredes, techos y molduras con acabados limpios."
+      },
+      "deck": {
+        "title": "Reemplazo de terraza",
+        "desc": "Tablas y estructuras desgastadas reemplazadas por una terraza nueva."
+      }
     }
   },
   "how": {
     "title": "Cómo reservar",
     "steps": {
-      "one": { "title": "Cuéntanos el trabajo", "desc": "Elige un servicio y describe lo que necesitas." },
-      "two": { "title": "Agrega fotos y un día", "desc": "Las fotos nos ayudan a cotizar con precisión. Elige el día que te convenga." },
-      "three": { "title": "Confirmamos y llegamos", "desc": "Confirmamos la hora y hacemos el trabajo." }
+      "one": {
+        "title": "Cuéntanos el trabajo",
+        "desc": "Elige un servicio y describe lo que necesitas."
+      },
+      "two": {
+        "title": "Agrega fotos y un día",
+        "desc": "Las fotos nos ayudan a cotizar con precisión. Elige el día que te convenga."
+      },
+      "three": {
+        "title": "Confirmamos y llegamos",
+        "desc": "Confirmamos la hora y hacemos el trabajo."
+      }
     }
   },
-  "cta": { "title": "¿Tienes un trabajo en mente?", "subtitle": "Reserva en línea o llámanos.", "book": "Reservar un trabajo", "call": "Llámanos", "email": "Escríbenos" },
-  "footer": { "tagline": "Servicios de mantenimiento para el hogar.", "explore": "Explorar", "contact": "Contacto", "rights": "Todos los derechos reservados." },
-  "book": { "title": "Reserva en línea", "intro": "El formulario de reserva llegará pronto. Por ahora, llámanos o escríbenos con tu trabajo y fotos.", "back": "Volver al inicio" }
+  "cta": {
+    "title": "¿Tienes un trabajo en mente?",
+    "subtitle": "Reserva en línea o llámanos.",
+    "book": "Reservar un trabajo",
+    "call": "Llámanos",
+    "email": "Escríbenos"
+  },
+  "footer": {
+    "tagline": "Servicios de mantenimiento para el hogar.",
+    "explore": "Explorar",
+    "contact": "Contacto",
+    "rights": "Todos los derechos reservados."
+  },
+  "book": {
+    "title": "Reservar un trabajo",
+    "intro": "Cuéntanos lo que necesitas. Confirmaremos tu solicitud por correo o por teléfono.",
+    "back": "Volver al inicio",
+    "form": {
+      "name": "Nombre completo",
+      "phone": "Número de teléfono",
+      "email": "Correo electrónico",
+      "address": "Dirección del trabajo",
+      "service": "Servicio",
+      "servicePlaceholder": "Elige un servicio",
+      "other": "Otra cosa",
+      "date": "Fecha preferida",
+      "time": "Horario preferido",
+      "reason": "Motivo de tu solicitud",
+      "reasonHelp": "Describe el trabajo y cualquier detalle que debamos saber.",
+      "photos": "Fotos (opcional)",
+      "photosHelp": "Hasta 5 fotos de 5 MB cada una. Las fotos nos ayudan a cotizar con precisión.",
+      "addPhotos": "Agregar fotos",
+      "remove": "Quitar",
+      "consent": "Acepto que Prospare Handyman Work me contacte sobre esta solicitud.",
+      "submit": "Enviar solicitud",
+      "sending": "Enviando..."
+    },
+    "times": {
+      "morning": "Mañana",
+      "afternoon": "Tarde",
+      "evening": "Noche",
+      "flexible": "Flexible"
+    },
+    "errors": {
+      "required": "Este campo es obligatorio.",
+      "email": "Ingresa un correo electrónico válido.",
+      "phone": "Ingresa un número de teléfono válido.",
+      "reasonShort": "Por favor danos algunos detalles más.",
+      "consent": "Acepta para que podamos contactarte.",
+      "photoType": "Solo se permiten fotos JPG, PNG o WebP.",
+      "photoSize": "Cada foto debe pesar 5 MB o menos.",
+      "photoCount": "Puedes agregar hasta 5 fotos.",
+      "captcha": "Confirma que no eres un robot.",
+      "generic": "Algo salió mal. Inténtalo de nuevo o llámanos.",
+      "notConfigured": "La reserva en línea aún no está disponible. Llámanos o escríbenos."
+    },
+    "success": {
+      "title": "Solicitud recibida",
+      "text": "Gracias. Nos pondremos en contacto pronto para confirmar tu reserva.",
+      "another": "Enviar otra solicitud"
+    },
+    "side": {
+      "title": "¿Prefieres hablar?",
+      "text": "Llámanos o escríbenos cuando quieras."
+    }
+  },
+  "emailConfirm": {
+    "subject": "Recibimos tu solicitud",
+    "hello": "Hola {name},",
+    "body": "Gracias por contactar a Prospare Handyman Work. Recibimos tu solicitud de «{service}» y nos pondremos en contacto pronto para confirmar los detalles.",
+    "bye": "El equipo de Prospare Handyman Work"
+  }
 }

@@ -3,24 +3,60 @@
     "title": "Prospare Handyman Work | Home repairs and upgrades",
     "description": "Handyman services: TV mounting, painting, wall patching, plumbing repairs, electrical connections, deck replacement and holiday decorations. Book online."
   },
-  "nav": { "work": "Our work", "services": "Services", "how": "How it works", "contact": "Contact", "book": "Book a job", "menu": "Menu" },
+  "nav": {
+    "work": "Our work",
+    "services": "Services",
+    "how": "How it works",
+    "contact": "Contact",
+    "book": "Book a job",
+    "menu": "Menu"
+  },
   "hero": {
     "title": "Home repairs and upgrades, done right.",
     "subtitle": "TV mounting, painting, repairs and more. Tell us the job, send photos, and pick a day.",
     "ctaBook": "Book a job",
     "ctaWork": "See our work",
-    "ticket": { "title": "Work order", "status": "New request", "job": "Job", "jobValue": "Mount TV above fireplace", "place": "Room", "placeValue": "Living room", "photos": "Photos", "photosValue": "3 attached", "day": "Day", "dayValue": "Saturday morning" }
+    "ticket": {
+      "title": "Work order",
+      "status": "New request",
+      "job": "Job",
+      "jobValue": "Mount TV above fireplace",
+      "place": "Room",
+      "placeValue": "Living room",
+      "photos": "Photos",
+      "photosValue": "3 attached",
+      "day": "Day",
+      "dayValue": "Saturday morning"
+    }
   },
   "work": {
     "title": "Recent work",
     "intro": "A look at jobs we have finished.",
     "items": {
-      "tv": { "title": "TV wall mount", "tag": "TV mounting" },
-      "deck": { "title": "Deck rebuild", "tag": "Deck replacement" },
-      "painting": { "title": "Living room repaint", "tag": "Interior painting" },
-      "fireplace": { "title": "Mantel styling", "tag": "Fireplace decoration" },
-      "patching": { "title": "Hallway wall repair", "tag": "Wall patching" },
-      "holiday": { "title": "Holiday lights", "tag": "Holiday decorations" }
+      "tv": {
+        "title": "TV wall mount",
+        "tag": "TV mounting"
+      },
+      "deck": {
+        "title": "Deck rebuild",
+        "tag": "Deck replacement"
+      },
+      "painting": {
+        "title": "Living room repaint",
+        "tag": "Interior painting"
+      },
+      "fireplace": {
+        "title": "Mantel styling",
+        "tag": "Fireplace decoration"
+      },
+      "patching": {
+        "title": "Hallway wall repair",
+        "tag": "Wall patching"
+      },
+      "holiday": {
+        "title": "Holiday lights",
+        "tag": "Holiday decorations"
+      }
     }
   },
   "services": {
@@ -28,25 +64,127 @@
     "intro": "Pick a service and we take care of the rest.",
     "book": "Book this service",
     "items": {
-      "holiday": { "title": "Holiday decorations", "desc": "Lights, wreaths and seasonal displays, installed and taken down." },
-      "electrical": { "title": "Basic electrical connections", "desc": "Light fixtures, switches, outlets and fans connected." },
-      "tv": { "title": "TV mounting", "desc": "Wall mounts fitted level, with cables tidied." },
-      "fireplace": { "title": "Fireplace decoration", "desc": "Mantels and surrounds styled for the season." },
-      "plumbing": { "title": "Basic plumbing repairs", "desc": "Leaking faucets, clogged drains and loose fixtures." },
-      "patching": { "title": "Wall patching", "desc": "Holes and cracks filled, sanded and ready to paint." },
-      "painting": { "title": "Interior painting", "desc": "Walls, ceilings and trim with clean edges." },
-      "deck": { "title": "Deck replacement", "desc": "Worn boards and frames replaced with new decking." }
+      "holiday": {
+        "title": "Holiday decorations",
+        "desc": "Lights, wreaths and seasonal displays, installed and taken down."
+      },
+      "electrical": {
+        "title": "Basic electrical connections",
+        "desc": "Light fixtures, switches, outlets and fans connected."
+      },
+      "tv": {
+        "title": "TV mounting",
+        "desc": "Wall mounts fitted level, with cables tidied."
+      },
+      "fireplace": {
+        "title": "Fireplace decoration",
+        "desc": "Mantels and surrounds styled for the season."
+      },
+      "plumbing": {
+        "title": "Basic plumbing repairs",
+        "desc": "Leaking faucets, clogged drains and loose fixtures."
+      },
+      "patching": {
+        "title": "Wall patching",
+        "desc": "Holes and cracks filled, sanded and ready to paint."
+      },
+      "painting": {
+        "title": "Interior painting",
+        "desc": "Walls, ceilings and trim with clean edges."
+      },
+      "deck": {
+        "title": "Deck replacement",
+        "desc": "Worn boards and frames replaced with new decking."
+      }
     }
   },
   "how": {
     "title": "How booking works",
     "steps": {
-      "one": { "title": "Tell us the job", "desc": "Choose a service and describe what you need." },
-      "two": { "title": "Add photos and a day", "desc": "Photos help us quote accurately. Pick the day that suits you." },
-      "three": { "title": "We confirm and arrive", "desc": "We confirm the time, then get the work done." }
+      "one": {
+        "title": "Tell us the job",
+        "desc": "Choose a service and describe what you need."
+      },
+      "two": {
+        "title": "Add photos and a day",
+        "desc": "Photos help us quote accurately. Pick the day that suits you."
+      },
+      "three": {
+        "title": "We confirm and arrive",
+        "desc": "We confirm the time, then get the work done."
+      }
     }
   },
-  "cta": { "title": "Have a job in mind?", "subtitle": "Book online or call us.", "book": "Book a job", "call": "Call us", "email": "Email us" },
-  "footer": { "tagline": "Handyman work for homes.", "explore": "Explore", "contact": "Contact", "rights": "All rights reserved." },
-  "book": { "title": "Online booking", "intro": "The booking form is coming soon. For now, call or email us with your job and photos.", "back": "Back to home" }
+  "cta": {
+    "title": "Have a job in mind?",
+    "subtitle": "Book online or call us.",
+    "book": "Book a job",
+    "call": "Call us",
+    "email": "Email us"
+  },
+  "footer": {
+    "tagline": "Handyman work for homes.",
+    "explore": "Explore",
+    "contact": "Contact",
+    "rights": "All rights reserved."
+  },
+  "book": {
+    "title": "Book a job",
+    "intro": "Tell us what you need. We will confirm your request by email or phone.",
+    "back": "Back to home",
+    "form": {
+      "name": "Full name",
+      "phone": "Phone number",
+      "email": "Email",
+      "address": "Job address",
+      "service": "Service",
+      "servicePlaceholder": "Choose a service",
+      "other": "Something else",
+      "date": "Preferred date",
+      "time": "Preferred time",
+      "reason": "Reason for contacting us",
+      "reasonHelp": "Describe the job and anything we should know.",
+      "photos": "Photos (optional)",
+      "photosHelp": "Up to 5 photos, 5 MB each. Photos help us quote accurately.",
+      "addPhotos": "Add photos",
+      "remove": "Remove",
+      "consent": "I agree that Prospare Handyman Work may contact me about this request.",
+      "submit": "Send request",
+      "sending": "Sending..."
+    },
+    "times": {
+      "morning": "Morning",
+      "afternoon": "Afternoon",
+      "evening": "Evening",
+      "flexible": "Flexible"
+    },
+    "errors": {
+      "required": "This field is required.",
+      "email": "Enter a valid email address.",
+      "phone": "Enter a valid phone number.",
+      "reasonShort": "Please give us a few more details.",
+      "consent": "Please agree so we can contact you.",
+      "photoType": "Only JPG, PNG or WebP photos are allowed.",
+      "photoSize": "Each photo must be 5 MB or smaller.",
+      "photoCount": "You can add up to 5 photos.",
+      "captcha": "Please confirm you are not a robot.",
+      "generic": "Something went wrong. Please try again or call us.",
+      "notConfigured": "Online booking is not available yet. Please call or email us."
+    },
+    "success": {
+      "title": "Request received",
+      "text": "Thank you. We will contact you soon to confirm your booking.",
+      "another": "Send another request"
+    },
+    "side": {
+      "title": "Prefer to talk?",
+      "text": "Call or email us any time."
+    }
+  },
+  "emailConfirm": {
+    "subject": "We received your request",
+    "hello": "Hi {name},",
+    "body": "Thank you for contacting Prospare Handyman Work. We received your request for \"{service}\" and will contact you soon to confirm the details.",
+    "bye": "The Prospare Handyman Work team"
+  }
 }

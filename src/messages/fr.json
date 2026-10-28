@@ -3,24 +3,60 @@
     "title": "Prospare Handyman Work | Réparations et améliorations pour la maison",
     "description": "Services de bricoleur : montage de TV, peinture, réparation de murs, petits travaux de plomberie, branchements électriques de base, remplacement de terrasse et décorations des fêtes. Réservez en ligne."
   },
-  "nav": { "work": "Nos réalisations", "services": "Services", "how": "Comment ça marche", "contact": "Contact", "book": "Réserver", "menu": "Menu" },
+  "nav": {
+    "work": "Nos réalisations",
+    "services": "Services",
+    "how": "Comment ça marche",
+    "contact": "Contact",
+    "book": "Réserver",
+    "menu": "Menu"
+  },
   "hero": {
     "title": "Réparations et améliorations pour la maison, bien faites.",
     "subtitle": "Montage de TV, peinture, réparations et plus encore. Décrivez le travail, envoyez des photos et choisissez un jour.",
     "ctaBook": "Réserver un service",
     "ctaWork": "Voir nos réalisations",
-    "ticket": { "title": "Bon de travail", "status": "Nouvelle demande", "job": "Travail", "jobValue": "Fixer une TV au-dessus de la cheminée", "place": "Pièce", "placeValue": "Salon", "photos": "Photos", "photosValue": "3 jointes", "day": "Jour", "dayValue": "Samedi matin" }
+    "ticket": {
+      "title": "Bon de travail",
+      "status": "Nouvelle demande",
+      "job": "Travail",
+      "jobValue": "Fixer une TV au-dessus de la cheminée",
+      "place": "Pièce",
+      "placeValue": "Salon",
+      "photos": "Photos",
+      "photosValue": "3 jointes",
+      "day": "Jour",
+      "dayValue": "Samedi matin"
+    }
   },
   "work": {
     "title": "Réalisations récentes",
     "intro": "Un aperçu des travaux que nous avons terminés.",
     "items": {
-      "tv": { "title": "Fixation murale de TV", "tag": "Montage de TV" },
-      "deck": { "title": "Terrasse refaite", "tag": "Remplacement de terrasse" },
-      "painting": { "title": "Salon repeint", "tag": "Peinture intérieure" },
-      "fireplace": { "title": "Décor de manteau", "tag": "Décoration de cheminée" },
-      "patching": { "title": "Mur de couloir réparé", "tag": "Réparation de murs" },
-      "holiday": { "title": "Lumières des fêtes", "tag": "Décorations des fêtes" }
+      "tv": {
+        "title": "Fixation murale de TV",
+        "tag": "Montage de TV"
+      },
+      "deck": {
+        "title": "Terrasse refaite",
+        "tag": "Remplacement de terrasse"
+      },
+      "painting": {
+        "title": "Salon repeint",
+        "tag": "Peinture intérieure"
+      },
+      "fireplace": {
+        "title": "Décor de manteau",
+        "tag": "Décoration de cheminée"
+      },
+      "patching": {
+        "title": "Mur de couloir réparé",
+        "tag": "Réparation de murs"
+      },
+      "holiday": {
+        "title": "Lumières des fêtes",
+        "tag": "Décorations des fêtes"
+      }
     }
   },
   "services": {
@@ -28,25 +64,127 @@
     "intro": "Choisissez un service, nous nous occupons du reste.",
     "book": "Réserver ce service",
     "items": {
-      "holiday": { "title": "Décorations des fêtes", "desc": "Guirlandes lumineuses, couronnes et décors saisonniers, installés puis retirés." },
-      "electrical": { "title": "Branchements électriques de base", "desc": "Luminaires, interrupteurs, prises et ventilateurs raccordés." },
-      "tv": { "title": "Montage de TV", "desc": "Supports muraux posés bien droits, câbles rangés." },
-      "fireplace": { "title": "Décoration de cheminée", "desc": "Manteaux et encadrements décorés selon la saison." },
-      "plumbing": { "title": "Petites réparations de plomberie", "desc": "Robinets qui fuient, drains bouchés, accessoires desserrés." },
-      "patching": { "title": "Réparation de murs", "desc": "Trous et fissures rebouchés, poncés et prêts à peindre." },
-      "painting": { "title": "Peinture intérieure", "desc": "Murs, plafonds et boiseries aux finitions nettes." },
-      "deck": { "title": "Remplacement de terrasse", "desc": "Planches usées et structures remplacées par une terrasse neuve." }
+      "holiday": {
+        "title": "Décorations des fêtes",
+        "desc": "Guirlandes lumineuses, couronnes et décors saisonniers, installés puis retirés."
+      },
+      "electrical": {
+        "title": "Branchements électriques de base",
+        "desc": "Luminaires, interrupteurs, prises et ventilateurs raccordés."
+      },
+      "tv": {
+        "title": "Montage de TV",
+        "desc": "Supports muraux posés bien droits, câbles rangés."
+      },
+      "fireplace": {
+        "title": "Décoration de cheminée",
+        "desc": "Manteaux et encadrements décorés selon la saison."
+      },
+      "plumbing": {
+        "title": "Petites réparations de plomberie",
+        "desc": "Robinets qui fuient, drains bouchés, accessoires desserrés."
+      },
+      "patching": {
+        "title": "Réparation de murs",
+        "desc": "Trous et fissures rebouchés, poncés et prêts à peindre."
+      },
+      "painting": {
+        "title": "Peinture intérieure",
+        "desc": "Murs, plafonds et boiseries aux finitions nettes."
+      },
+      "deck": {
+        "title": "Remplacement de terrasse",
+        "desc": "Planches usées et structures remplacées par une terrasse neuve."
+      }
     }
   },
   "how": {
     "title": "Comment réserver",
     "steps": {
-      "one": { "title": "Décrivez le travail", "desc": "Choisissez un service et dites-nous ce qu'il vous faut." },
-      "two": { "title": "Ajoutez des photos et un jour", "desc": "Les photos nous aident à établir un devis précis. Choisissez le jour qui vous convient." },
-      "three": { "title": "Nous confirmons et nous venons", "desc": "Nous confirmons l'heure, puis nous faisons le travail." }
+      "one": {
+        "title": "Décrivez le travail",
+        "desc": "Choisissez un service et dites-nous ce qu'il vous faut."
+      },
+      "two": {
+        "title": "Ajoutez des photos et un jour",
+        "desc": "Les photos nous aident à établir un devis précis. Choisissez le jour qui vous convient."
+      },
+      "three": {
+        "title": "Nous confirmons et nous venons",
+        "desc": "Nous confirmons l'heure, puis nous faisons le travail."
+      }
     }
   },
-  "cta": { "title": "Un travail en tête ?", "subtitle": "Réservez en ligne ou appelez-nous.", "book": "Réserver un service", "call": "Appelez-nous", "email": "Écrivez-nous" },
-  "footer": { "tagline": "Services de bricolage pour la maison.", "explore": "Explorer", "contact": "Contact", "rights": "Tous droits réservés." },
-  "book": { "title": "Réservation en ligne", "intro": "Le formulaire de réservation arrive bientôt. En attendant, appelez-nous ou écrivez-nous avec votre demande et des photos.", "back": "Retour à l'accueil" }
+  "cta": {
+    "title": "Un travail en tête ?",
+    "subtitle": "Réservez en ligne ou appelez-nous.",
+    "book": "Réserver un service",
+    "call": "Appelez-nous",
+    "email": "Écrivez-nous"
+  },
+  "footer": {
+    "tagline": "Services de bricolage pour la maison.",
+    "explore": "Explorer",
+    "contact": "Contact",
+    "rights": "Tous droits réservés."
+  },
+  "book": {
+    "title": "Réserver un service",
+    "intro": "Dites-nous ce dont vous avez besoin. Nous confirmerons votre demande par e-mail ou par téléphone.",
+    "back": "Retour à l'accueil",
+    "form": {
+      "name": "Nom complet",
+      "phone": "Numéro de téléphone",
+      "email": "E-mail",
+      "address": "Adresse du chantier",
+      "service": "Service",
+      "servicePlaceholder": "Choisissez un service",
+      "other": "Autre chose",
+      "date": "Date souhaitée",
+      "time": "Moment souhaité",
+      "reason": "Motif de votre demande",
+      "reasonHelp": "Décrivez le travail et tout ce que nous devrions savoir.",
+      "photos": "Photos (facultatif)",
+      "photosHelp": "Jusqu'à 5 photos de 5 Mo chacune. Les photos nous aident à établir un devis précis.",
+      "addPhotos": "Ajouter des photos",
+      "remove": "Retirer",
+      "consent": "J'accepte que Prospare Handyman Work me contacte au sujet de cette demande.",
+      "submit": "Envoyer la demande",
+      "sending": "Envoi en cours..."
+    },
+    "times": {
+      "morning": "Matin",
+      "afternoon": "Après-midi",
+      "evening": "Soir",
+      "flexible": "Flexible"
+    },
+    "errors": {
+      "required": "Ce champ est obligatoire.",
+      "email": "Saisissez une adresse e-mail valide.",
+      "phone": "Saisissez un numéro de téléphone valide.",
+      "reasonShort": "Merci de nous donner quelques détails de plus.",
+      "consent": "Veuillez accepter pour que nous puissions vous contacter.",
+      "photoType": "Seules les photos JPG, PNG ou WebP sont acceptées.",
+      "photoSize": "Chaque photo doit faire 5 Mo ou moins.",
+      "photoCount": "Vous pouvez ajouter jusqu'à 5 photos.",
+      "captcha": "Veuillez confirmer que vous n'êtes pas un robot.",
+      "generic": "Une erreur s'est produite. Réessayez ou appelez-nous.",
+      "notConfigured": "La réservation en ligne n'est pas encore disponible. Appelez-nous ou écrivez-nous."
+    },
+    "success": {
+      "title": "Demande reçue",
+      "text": "Merci. Nous vous contacterons bientôt pour confirmer votre réservation.",
+      "another": "Envoyer une autre demande"
+    },
+    "side": {
+      "title": "Vous préférez en parler ?",
+      "text": "Appelez-nous ou écrivez-nous à tout moment."
+    }
+  },
+  "emailConfirm": {
+    "subject": "Nous avons reçu votre demande",
+    "hello": "Bonjour {name},",
+    "body": "Merci d'avoir contacté Prospare Handyman Work. Nous avons bien reçu votre demande pour « {service} » et nous vous contacterons bientôt pour confirmer les détails.",
+    "bye": "L'équipe Prospare Handyman Work"
+  }
 }

@@ -30,8 +30,8 @@ export default async function Services() {
             <li key={key}>
               <Reveal delay={i * 70} outerClassName="h-full">
                 <div className="service-card group h-full border-t-4 border-brand-black bg-white p-5">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
                   <div className="-mx-5 -mt-5 h-40 overflow-hidden bg-paper">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img src={`/images/services/${key}.svg`} alt="" className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" />
                   </div>
                   <span className="relative -mt-6 flex h-12 w-12 ring-4 ring-white items-center justify-center bg-brand-yellow transition-colors group-hover:bg-brand-black group-hover:text-brand-yellow">
